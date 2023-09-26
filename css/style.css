@@ -46,7 +46,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .top-part .logo-title {
@@ -80,4 +80,14 @@ body {
     text-align: right;
 }
 
-/* slider */
+/* slider-carousel */
+.slider-carousel {
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slider-carousel .row {
+    height: 100%;
+}
+
