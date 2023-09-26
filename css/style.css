@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/IRANSansWeb\(FaNum\)_Medium.woff2');
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Black-FD.woff');
+    src: url('../fonts/Vazir-Thin.woff') format('woff'),
+        url('../fonts/Vazir-Medium.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    direction: rtl;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* top part */
+.top-part {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.top-part .logo-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.top-part .logo {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid rgb(233, 232, 232);
+}
+
+.top-part .logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.top-part .title h1 {
+    font-family: "IRANSans";
+    font-size: 0.9rem;
+}
+
+.top-part .row .para {
+    display: flex;
+    text-align: right;
+}
+
+/* slider */
