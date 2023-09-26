@@ -80,14 +80,25 @@ body {
     text-align: right;
 }
 
-/* slider-carousel */
-.slider-carousel {
+#slider {
     height: 350px;
     border-radius: 10px;
     overflow: hidden;
 }
 
-.slider-carousel .row {
-    height: 100%;
+.carousel-item img {
+    object-fit: cover;
 }
 
+.icon-box {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    padding-right: 25px;
+    gap: 15px;
+
+}
+
+.icon-box i {
+    font-size: 25px;
+}
