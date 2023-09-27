@@ -116,3 +116,16 @@ body {
     font-size: 18px;
     font-weight: 700;
 }
+
+/* customer comments */
+#customer-comments {
+    margin-top: 15px;
+    padding: 10px;
+    border: 2px solid rgb(233, 232, 232);
+}
+
+#customer-comments .row .comment-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
