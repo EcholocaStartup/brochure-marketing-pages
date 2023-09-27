@@ -100,6 +100,11 @@ body {
     font-size: 25px;
 }
 
+.icon-box .fa-heart {
+    font-size: 20px;
+    display: none;
+}
+
 /* description */
 #description .description-box {
     margin-top: 0.9rem;
@@ -128,4 +133,34 @@ body {
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
+}
+
+.comment-box .customer-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(233, 232, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment-box .customer-icon i {
+    font-size: 25px;
+}
+
+.comment-box .comment,
+.comment-box .post {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    padding-top: 15px;
+
+}
+
+.comment-box .comment p,
+.comment-box .post {
+    font-size: 15px;
+    opacity: 0.7;
+    margin-right: 15px;
 }
