@@ -41,7 +41,7 @@ body {
     flex-direction: column;
 }
 
-/* top part */
+/* ============Top Part============ */
 #top-part {
     width: 100%;
     display: flex;
@@ -77,7 +77,7 @@ body {
     padding-right: 10px;
 }
 
-/* slider-carousel */
+/* ============Slider-Carousel============ */
 .slide {
     height: 350px;
     border-radius: 10px;
@@ -105,7 +105,7 @@ body {
     display: none;
 }
 
-/* description */
+/* ============Description============ */
 #description .description-box {
     margin-top: 0.9rem;
     padding: 10px;
@@ -122,7 +122,7 @@ body {
     font-weight: 700;
 }
 
-/* customer comments */
+/* ============Customer Comments============ */
 #customer-comments {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -171,7 +171,7 @@ body {
     margin-left: 15px;
 }
 
-/* Responsive */
+/* ============Responsive============ */
 
 @media screen and (min-width:768px) {
     .comment-box-items .col-2 {
