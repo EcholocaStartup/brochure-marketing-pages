@@ -125,14 +125,14 @@ body {
 /* customer comments */
 #customer-comments {
     margin-top: 15px;
-    padding: 0 5px;
 }
 
 #customer-comments .row .comment-box {
     display: flex;
     align-items: center;
-    flex-wrap: nowrap;
+    padding: 10px;
     border: 2px solid rgb(233, 232, 232);
+    border-radius: 5px;
 }
 
 .comment-box .customer-icon {
@@ -149,18 +149,6 @@ body {
     font-size: 25px;
 }
 
-.comment-box .comment,
-.comment-box .post {
-    display: flex;
-    align-items: center;
-    padding-right: 17px;
-    padding-top: 15px;
-
-}
-
-.comment-box .comment p,
-.comment-box .post {
-    font-size: 15px;
+.btn {
     opacity: 0.7;
-    margin-left: 12px;
 }
