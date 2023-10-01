@@ -125,6 +125,7 @@ body {
 /* customer comments */
 #customer-comments {
     margin-top: 15px;
+    margin-bottom: 15px;
     padding: 0 10px;
 }
 
@@ -155,10 +156,50 @@ body {
     opacity: 0.7;
 }
 
+.show-comments {
+    margin-top: 15px;
+}
+
 .comments {
     border: 2px solid rgb(233, 232, 232);
     border-radius: 5px;
-    margin-top: 15px;
     padding: 15px;
+}
 
+.show-comments .comments strong {
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+/* Responsive */
+
+@media screen and (min-width:768px) {
+    .comment-box-items .col-2 {
+        width: 10%;
+    }
+
+    .comment-box-items .col-10 {
+        width: 90%;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    #customer-comments form .col-9 {
+        width: 85%;
+    }
+
+    #customer-comments form .col-3 {
+        width: 15%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    #customer-comments form .col-9 {
+        width: 90%;
+    }
+
+    #customer-comments form .col-3 {
+        width: 10%;
+    }
 }
