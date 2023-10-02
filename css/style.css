@@ -148,7 +148,7 @@ body {
 
 
 /* ============Description============ */
-#description {}
+/* #description {} */
 
 #description .description-box {
     margin-top: 0.9rem;
@@ -231,6 +231,11 @@ body {
 #customer-comments .show-comments .comments strong {
     font-weight: 700;
     margin-left: 15px;
+}
+
+
+#customer-comments .comments p {
+    display: inline;
 }
 
 /* ============Responsive============ */

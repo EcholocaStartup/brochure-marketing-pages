@@ -49,5 +49,5 @@ inputComment.addEventListener("change", function () {
 
 
 
-// let comments = document.querySelector("#customer-comments .comments>p");
-// comments.style.color = "green"
+let comments = document.querySelector("#customer-comments .comments p");
+// comments.style.color = "red"
