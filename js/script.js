@@ -37,7 +37,8 @@ heartIconRed.addEventListener("click", function () {
 // ============Comment Box============//
 let submitBtn = document.querySelector("#customer-comments form .btn");
 let form = document.querySelector("#customer-comments form");
-let inputComment = document.querySelector("#customer-comments form .col-9");
+let inputComment = document.querySelector("#customer-comments form input");
+
 
 inputComment.addEventListener("click", function () {
     form.classList.add("active");
@@ -47,7 +48,9 @@ inputComment.addEventListener("change", function () {
     form.classList.remove("active");
 })
 
+form.addEventListener("submit", () => {
+    let commentsText = document.querySelector("#customer-comments .comments p");
+    commentsText.innerHTML = inputComment.value;
+})
 
 
-let comments = document.querySelector("#customer-comments .comments p");
-// comments.style.color = "red"
