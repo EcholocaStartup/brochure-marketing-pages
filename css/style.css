@@ -286,12 +286,21 @@ body {
         height: 400px;
     }
 
+    #top-part .logo {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    #top-part .title h1 {
+        font-size: 1.4rem;
+    }
+
     .logo-title .col-10 {
-        width: 93%;
+        width: 90%;
     }
 
     .logo-title .col-2 {
-        width: 7%;
+        width: 10%;
     }
 }
 
@@ -313,12 +322,5 @@ body {
         width: 7%;
     }
 
-    .logo-title .col-10 {
-        width: 93%;
-    }
-
-    .logo-title .col-2 {
-        width: 7%;
-    }
 
 }
